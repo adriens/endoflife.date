@@ -28,6 +28,7 @@ releases:
     eol: false
     latest: "3.3.2"
     latestReleaseDate: 2023-05-23
+    link: https://github.com/lampepfl/dotty/releases/tag/3.3.0 # no changelog for 3.3.1 and 3.3.2
 
 -   releaseCycle: "3.2"
     releaseDate: 2022-08-31
