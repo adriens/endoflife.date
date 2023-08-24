@@ -7,7 +7,7 @@ permalink: /quarkus-framework
 alternate_urls:
 -   /quarkus
 releasePolicyLink: https://quarkus.io/security/
-changelogTemplate: "https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final"
+changelogTemplate: "https://github.com/quarkusio/quarkus/releases/tag/__LATEST__"
 releaseDateColumn: true
 activeSupportColumn: false
 eolColumn: Support
@@ -19,7 +19,7 @@ releaseColumn: true
 auto:
 -   github_releases: quarkusio/quarkus
     # See https://regex101.com/r/4mf9xU/1 for reference
-    regex: '^(?:Release )?(?P<version>[1-9][\d\.]+)(\.Final)?$'
+    regex: '^(?:Release )?(?P<version>[1-9][\d\.]+)?$'
 
 # Note:
 # - eol(x) = releaseDate(x+1) for non-LTS
