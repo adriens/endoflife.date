@@ -1,7 +1,7 @@
 ---
 title: Gradle
 category: app
-tags: java-runtime
+tags: java-runtime build-tool
 iconSlug: gradle
 permalink: /gradle
 versionCommand: gradle --version
